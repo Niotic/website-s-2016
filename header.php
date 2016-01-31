@@ -31,7 +31,7 @@
         <li><a href="#">What we do</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Outreach</a></li>
-        <li><a class="waves-effect waves-light btn">CONTACT US</a></li>
+        <li><a class="waves-effect waves-light btn" href="contact.php">CONTACT US</a></li>
       </ul>
 
       <ul class="side-nav" id="mobile-demo">
