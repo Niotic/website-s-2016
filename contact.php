@@ -17,23 +17,23 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <style>
-    .large{
-      width: 50%;
-
+    body {
+      background-image: url(src/contact.gif);
     }
-    #alignment{
+    .row{
       padding-left:  20px;
       padding-top:   20px;
       padding-right: 20px;
     }
-
-
+    .niotic-purple{
+      color: #091136;
+    }
   </style>
 
 
 
 </head>
-<body>
+<body class="teal">
 
   <!-- Header -->
   <?php include 'header.php'; ?>
@@ -41,13 +41,13 @@
   <!-- Main content -->
 
       <!-- Card Content -->
-      <form class"card-panel large teal" action="MAILTO:somone@example.net" method="post" enctype="text/plain">
-        <div class="container">
+      <form action="MAILTO:somone@example.net" method="post" enctype="text/plain">
             <div class="row">
                 <div class="col m10 offset-m1 s12">
-                    <h2 class="center-align">Contact Us</h2>
+                  <div class="card purple">
+                    <div class="card-content white-text">
+                    <span class="card-title"> Contact Us </span>
                     <div class="row">
-                        <form class="col s12">
                             <div class="row">
                                 <div class="input-field col m6 s12">
                                     <input placeholder="First Name" id="first_name" type="text" class="validate input-field">
@@ -87,7 +87,7 @@
                                     <label class="active" for="budget"> Budget</label>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row ">
                                 <div class="input-field col s12">
                                   <label>Any Specific Requirement(s)?</label>
                                   <br/>
@@ -178,8 +178,8 @@
                             if (isset($_POST['send']) {
                               mail("isyed.ahmed@hotmail.com", "Niotic Inquiry from: " . $email, $msg );
                             }-->
-                        </form>
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
