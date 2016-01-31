@@ -8,6 +8,8 @@
 
   <!--Stylesheets-->
 
+  <link rel="stylesheet" href="css/styles.css">
+
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 
@@ -25,8 +27,12 @@
       padding-top:   20px;
       padding-right: 20px;
     }
-    .niotic-purple{
-      color: #091136;
+    *::-moz-placeholder{
+      color: white !important;
+    }
+   input:not([type]), input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="time"], input[type="date"], input[type="datetime-local"], input[type="tel"], input[type="number"], input[type="radio"],
+   textarea.materialize-textarea, select {
+      font-size: 1.7rem !important;
     }
   </style>
 
@@ -44,9 +50,9 @@
       <form action="MAILTO:somone@example.net" method="post" enctype="text/plain">
             <div class="row">
                 <div class="col m10 offset-m1 s12">
-                  <div class="card purple">
+                  <div class="card niotic-dark">
                     <div class="card-content white-text">
-                    <span class="card-title"> Contact Us </span>
+                    <span class="card-title "> Contact Us </span>
                     <div class="row">
                             <div class="row">
                                 <div class="input-field col m6 s12">

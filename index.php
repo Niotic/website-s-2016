@@ -22,9 +22,9 @@
   <!-- Main content -->
   <main class="mdl-layout__content">
     <div class="page-content">
-      
+
     <span>
-      <img src="img/homepage.jpg" width="100%" height="115%"/>
+      <img src="src/front.jpg" width="100%" height="115%"/>
         <h1> We make things happen </h1>
      </img>
     </span>
